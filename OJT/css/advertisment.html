@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spoken English Ad</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #dff7f5;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .poster {
+      width: 350px;
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      text-align: center;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .top {
+      background: #1d3557;
+      color: white;
+      padding: 20px;
+    }
+
+    .top h1 {
+      margin: 0;
+      font-size: 40px;
+      line-height: 1.1;
+    }
+
+    .top p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .highlight {
+      color: yellow;
+    }
+
+    .workshop {
+      background: #e63946;
+      color: white;
+      padding: 15px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+
+    .discount {
+      background: #ffb703;
+      color: black;
+      margin: 15px auto;
+      width: 180px;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 30px;
+      font-weight: bold;
+
+      animation: zoom 1s infinite alternate;
+    }
+
+    .features {
+      text-align: left;
+      padding: 20px;
+    }
+
+    .features h3 {
+      color: #1d3557;
+    }
+
+    .features ul {
+      padding-left: 20px;
+    }
+
+    .features li {
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      background: #1d3557;
+      color: white;
+      padding: 15px;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: yellow;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: orange;
+      transform: scale(1.1);
+    }
+
+  
+
+    @keyframes zoom {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.1);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="poster">
+
+    <div class="top">
+      <h1>SPOKEN <br> ENGLISH</h1>
+      <p>Classes with <span class="highlight">Grammar</span></p>
+    </div>
+
+    <div class="workshop">
+      30 DAYS WORKSHOP
+    </div>
+
+    <div class="discount">
+      ₹499 ONLY
+    </div>
+
+    <div class="features">
+      <h3>What You Learn</h3>
+      <ul>
+        <li>Basic English Speaking</li>
+        <li>Grammar Practice</li>
+        <li>Daily Conversations</li>
+        <li>Confidence Building</li>
+        <li>Interview Skills</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      📞 Contact: 630355873
+      <br>
+      <a href="#" class="btn">Register Now</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

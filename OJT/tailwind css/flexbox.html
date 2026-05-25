@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box Using Tailwind CSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+    </script>
+</head>
+
+<body>
+    <div class=" w-full bg-blue-500 text-white m-0 p-5 flex items-center justify-center">
+        MY Flexbox Layout
+    </div>
+    <div class="flex">
+        <div class=" bg-black text-white p-5  h-150 w-60">
+            Home <br><br>
+            <a href="#">About</a> <br><br>
+            <a href="#">Services</a> <br><br>
+            <a href="#">Contact</a><br>
+        </div>
+        <div class=" bg-gray-200 text-black p-5  h-120 w-200 ml-70  mb-10 mt-10 hover:bg-orange-300 ">
+            <h2 class=" flex items-center justify-center text-xl font-bold mb-4 animate-bounce">Main Content</h2>
+             <table class="table-auto w-170 border-separate border border-gray-400 p-5 m-5 mt-10 hover:bg-indigo-300 hover:zoom-110 ">
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>Artist</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+                <td>Malcolm Lockyer</td>
+                <td>1961</td>
+            </tr>
+            <tr>
+                <td>Witchy Woman</td>
+                <td>The Eagles</td>
+                <td>1972</td>
+            </tr>
+            <tr>
+                <td>Shining Star</td>
+                <td>Earth, Wind, and Fire</td>
+                <td>1975</td>
+            </tr>
+        </tbody>
+    </table>
+        
+    <div class=" circle  w-50 h-50 rounded-full animate-spin bg-linear-to-r from-red-500 to-pink-500 hover:animate-bounce hover:scale-110"></div>
+
+        </div>
+    </div>
+    <div class=" w-full bg-blue-500 text-white m-0 p-5 flex items-center justify-center">
+        Filter Table
+    </div>
+     <div class=" w-full bg-red-500 text-white m-0 p-5 font-bold flex items-center justify-center">
+        This is the END
+    </div>
+</body>
+</html>

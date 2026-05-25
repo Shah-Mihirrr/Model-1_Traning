@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .main{
+            width: 500px;
+            border-top: 10px solid gray;
+            border-bottom: 10px solid gray;
+            padding: 10px;
+        }
+
+        .left{
+            width: 250px;
+            height: 250px;
+            background: black;
+            display: inline-block;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .left:hover{
+            transform: translateX(50px) rotate(45deg);
+        }   
+
+        .right{
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+        .box:hover{
+            transform: translatex(50px) rotate(45deg);
+        }   
+        .box{
+            width: 150px;
+            height: 90px;
+            background: black;
+            margin-bottom: 10px;
+            transition: transform 0.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="left"></div>
+
+    <div class="right">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
